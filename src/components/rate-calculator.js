@@ -14,9 +14,9 @@ export default class RateCalculator extends React.Component {
         };
     }
 
-    setDayRate(dayRate) {  // DAYRATE DEFAULT FROM ABOVE
+    setDayRate(rate) {  // DAYRATE DEFAULT FROM ABOVE
         this.setState({
-            dayRate
+            rate
         });
     }
 
